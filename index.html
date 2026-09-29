@@ -1,333 +1,901 @@
+<!DOCTYPE html>
+<html lang="es-AR">
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="Gráfica Roca - Diseño e impresión profesional en Moreno, Buenos Aires. Cartelería, ploteo vehicular, letras corpóreas, calcos y más.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gráfica Roca</title>
+  <title>Gráfica Roca | Ploteo vehicular, carteles y vinilos en Moreno</title>
+  <meta name="description" content="Ploteo vehicular, rotulación de camiones, carteles, vinilos esmerilados, calcos y diseño. Más de 20 años de experiencia y local propio en Moreno, Buenos Aires. Pedí tu presupuesto por WhatsApp.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://graficaroca.com.ar/">
+  <meta name="theme-color" content="#0d0d0d">
+
+  <!-- Open Graph (cómo se ve el link al compartirlo por WhatsApp / redes) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:title" content="Gráfica Roca · Ploteo, carteles y vinilos">
+  <meta property="og:description" content="Más de 20 años haciendo que las marcas se vean. Pedí tu presupuesto por WhatsApp.">
+  <meta property="og:url" content="https://graficaroca.com.ar/">
+  <meta property="og:image" content="https://graficaroca.com.ar/Img/web/saveiro-auxilio.webp">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="Img/favicon.png" type="image/png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-  <link rel="preload" href="img/foto1.webp" as="image">
+  <link rel="preload" href="Img/web/saveiro-auxilio.webp" as="image">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Exo+2:ital,wght@0,300;0,400;0,600;1,300&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  
-  <noscript>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Exo+2:ital,wght@0,300;0,400;0,600;1,300&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-  </noscript>
+  <link rel="stylesheet" href="Estilo/estilo.css">
+  <script>document.documentElement.classList.add('js');</script>
 
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1SQWDSE2R"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-L1SQWDSE2R', { 'page_path': window.location.pathname });
+    gtag('config', 'G-L1SQWDSE2R');
   </script>
 
-  <link rel="stylesheet" href="estilo/estilo.css">
-  
-  <script src="js/animaciones.js" defer></script>
-  <script src="js/javascript.js" defer></script>
-</head>
+  <!-- Datos estructurados para Google (negocio local) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://graficaroca.com.ar/#negocio",
+    "name": "Gráfica Roca",
+    "description": "Gráfica: ploteo vehicular, rotulación de camiones, carteles, vinilos esmerilados, calcos y diseño gráfico.",
+    "url": "https://graficaroca.com.ar/",
+    "image": "https://graficaroca.com.ar/Img/web/hilux-pazgon.webp",
+    "logo": "https://graficaroca.com.ar/Img/web/logo.webp",
+    "telephone": "+54 9 11 6932-6880",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Néstor Kirchner 2869",
+      "addressLocality": "Moreno",
+      "addressRegion": "Provincia de Buenos Aires",
+      "addressCountry": "AR"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": -34.59373, "longitude": -58.73877 },
+    "hasMap": "https://maps.app.goo.gl/?q=Grafica+Roca+Moreno",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "14:00" }
+    ],
+    "areaServed": ["Moreno", "Zona Oeste del Gran Buenos Aires", "CABA"],
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ploteo vehicular" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rotulación de camiones y flotas" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Carteles y marquesinas" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Vinilos esmerilados y vidrieras" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Calcos y stickers" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Diseño gráfico y logos" } }
+    ]
+  }
+  </script>
 
-<header id="header" class="header">
-  <a href="#inicio" class="logo-link" aria-label="Ir al inicio">
-    <img class="logo" src="img/logoheader.webp" alt="Logo Gráfica Roca" width="180" height="60">
-    <span class="logo-fallback">GR</span>
-  </a>
-  <div class="header-texto">
-    <h1 class="h1">GRÁFICA ROCA</h1>
-    <p class="subtitulo">Diseño · Impresión · Profesional</p>
+  <script src="Js/javascript.js" defer></script>
+</head>
+<body>
+
+<a class="skip-link" href="#servicios">Saltar al contenido</a>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="header-inner">
+    <a href="#inicio" class="logo-link" aria-label="Gráfica Roca — inicio">
+      <img class="logo" src="Img/web/logo.webp" alt="" width="184" height="184">
+      <span class="logo-texto">GRÁFICA <b>ROCA</b><small>Diseño · Impresión · Profesional</small></span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#servicios" class="nav-link">Servicios</a>
+      <a href="#trabajos" class="nav-link">Trabajos</a>
+      <a href="#proceso" class="nav-link">Proceso</a>
+      <a href="#nosotros" class="nav-link">Nosotros</a>
+      <a href="#preguntas" class="nav-link" title="Preguntas frecuentes">FAQ</a>
+      <a href="#ubicacion" class="nav-link">Ubicación</a>
+      <a href="#presupuesto" class="btn btn-primario btn-sm nav-cta">Pedir presupuesto</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
   </div>
-  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
-    <span></span><span></span><span></span>
-  </button>
 </header>
 
-<nav class="botonera" id="botonera">
-  <a href="#inicio" class="nav-link" data-section="inicio">Inicio</a>
-  <a href="#servicios" class="nav-link" data-section="servicios">Servicios</a>
-  <a href="#sobrenosotros" class="nav-link" data-section="sobrenosotros">Nosotros</a>
-  <a href="#ubicacion" class="nav-link" data-section="ubicacion">Ubicación</a>
-  <a href="https://wa.me/5491169326880" target="_blank" rel="noopener" class="nav-link nav-cta">Contactar </a>
-</nav>
+<main>
 
-
+<!-- ============ HERO ============ -->
 <section id="inicio" class="hero">
-  <div class="fondo-rollo">
-    
-    <div class="rollo-inner" id="rolloInner">
-      <img src="img/foto1.webp" alt="Trabajo gráfica 1 en Moreno" width="300" height="200">
-      <img src="img/foto2.webp" alt="Trabajo gráfica 2 en San Miguel" width="300" height="200">
-      <img src="img/foto3.webp" alt="Trabajo gráfica 3 en Palermo" width="300" height="200">
-      <img src="img/foto4.webp" alt="Trabajo gráfica 4 en Ituzaingo" width="300" height="200">
-      <img src="img/foto5.webp" alt="Trabajo gráfica 5 en San Miguel" width="300" height="200">
-      <img src="img/foto6.webp" alt="Trabajo gráfica 6 en San Miguel" width="300" height="200">
-      
-      <img src="img/foto1.webp" alt="Trabajo gráfica 1 en Moreno" width="300" height="200" loading="lazy">
-      <img src="img/foto2.webp" alt="Trabajo gráfica 2 en San Miguel" width="300" height="200" loading="lazy">
-      <img src="img/foto3.webp" alt="Trabajo gráfica 3 en Palermo" width="300" height="200" loading="lazy">
-      <img src="img/foto4.webp" alt="Trabajo gráfica 4 en Ituzaingo" width="300" height="200" loading="lazy">
-      <img src="img/foto5.webp" alt="Trabajo gráfica 5 en San Miguel" width="300" height="200" loading="lazy">
-      <img src="img/foto6.webp" alt="Trabajo gráfica 6 en Puerto Madero" width="300" height="200" loading="lazy">
+  <div class="hero-rollo" aria-hidden="true">
+    <div class="rollo-track">
+      <img src="Img/web/saveiro-auxilio.webp" alt="" width="674" height="875" fetchpriority="high">
+      <img src="Img/web/cartel-papelera.webp" alt="" width="662" height="611">
+      <img src="Img/web/camion-transcont.webp" alt="" width="809" height="821">
+      <img src="Img/web/letras-corporeas-alma.webp" alt="" width="821" height="610">
+      <img src="Img/web/vidriera-lavadero.webp" alt="" width="672" height="858" loading="lazy">
+      <img src="Img/web/auto-competicion.webp" alt="" width="788" height="829" loading="lazy">
+      <img src="Img/web/esmerilado-puerta-diseno.webp" alt="" width="857" height="849" loading="lazy">
+      <img src="Img/web/scania-shw.webp" alt="" width="675" height="893" loading="lazy">
+      <img src="Img/web/semi-aloha.webp" alt="" width="1232" height="868" loading="lazy">
+      <img src="Img/web/hilux-pazgon.webp" alt="" width="1400" height="787" loading="lazy">
+      <img src="Img/web/saveiro-auxilio.webp" alt="" width="674" height="875" loading="lazy">
+      <img src="Img/web/cartel-papelera.webp" alt="" width="662" height="611" loading="lazy">
+      <img src="Img/web/camion-transcont.webp" alt="" width="809" height="821" loading="lazy">
+      <img src="Img/web/letras-corporeas-alma.webp" alt="" width="821" height="610" loading="lazy">
+      <img src="Img/web/vidriera-lavadero.webp" alt="" width="672" height="858" loading="lazy">
+      <img src="Img/web/auto-competicion.webp" alt="" width="788" height="829" loading="lazy">
+      <img src="Img/web/esmerilado-puerta-diseno.webp" alt="" width="857" height="849" loading="lazy">
+      <img src="Img/web/scania-shw.webp" alt="" width="675" height="893" loading="lazy">
+      <img src="Img/web/semi-aloha.webp" alt="" width="1232" height="868" loading="lazy">
+      <img src="Img/web/hilux-pazgon.webp" alt="" width="1400" height="787" loading="lazy">
     </div>
   </div>
- <div class="hero-overlay">
-    <div class="hero-content">
-      <p class="hero-tag ">Moreno · Buenos Aires · Desde 2003</p>
-      <h2 class="hero-titulo ">Tu idea,<br><em>nuestra impresión.</em></h2>
-      <p class="hero-sub ">Más de 20 años transformando marcas en experiences visuales.</p>
-      <div class="hero-actions">
-        <a href="#servicios" class="hero-btn">Ver servicios</a>
-        <a href="https://wa.me/5491169326880" target="_blank" rel="noopener" class="hero-btn-ghost">Pedir presupuesto ↗</a>
-      </div>
- 
+  <div class="hero-velo" aria-hidden="true"></div>
+
+  <div class="contenedor hero-contenido">
+    <p class="eyebrow">Moreno · Buenos Aires</p>
+    <h1 class="hero-titulo">Tu idea,<span class="grad">nuestra impresión.</span></h1>
+    <p class="hero-sub">Más de 20 años transformando marcas en experiencias visuales. Ploteos, carteles, vinilos y calcos, del diseño a la colocación.</p>
+    <div class="hero-acciones">
+      <a href="https://wa.me/5491169326880?text=Hola%20Gr%C3%A1fica%20Roca!%20Quiero%20pedir%20un%20presupuesto." target="_blank" rel="noopener" class="btn btn-primario" data-wa="hero">
+        <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Pedir presupuesto
+      </a>
+      <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
     </div>
-    <div class="hero-marquee">
-      <div class="marquee-track">
-        <span>PLOTEO VEHICULAR</span><span>·</span>
-        <span>LETRAS CORPÓREAS</span><span>·</span>
-        <span>VINILOS</span><span>·</span>
-        <span>MARQUESINAS</span><span>·</span>
-        <span>DISEÑO GRÁFICO</span><span>·</span>
-        <span>CARTELERÍA</span><span>·</span>
-        <span>PLOTEO VEHICULAR</span><span>·</span>
-        <span>LETRAS CORPÓREAS</span><span>·</span>
-        <span>VINILOS</span><span>·</span>
-        <span>MARQUESINAS</span><span>·</span>
-        <span>DISEÑO GRÁFICO</span><span>·</span>
-        <span>CARTELERÍA</span><span>·</span>
-      </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Ploteo vehicular</span><i>✦</i><span>Rotulación de flotas</span><i>✦</i><span>Carteles y marquesinas</span><i>✦</i><span>Letras corpóreas</span><i>✦</i><span>Vinilos esmerilados</span><i>✦</i><span>Calcos y stickers</span><i>✦</i><span>Diseño de logos</span><i>✦</i>
+      <span>Ploteo vehicular</span><i>✦</i><span>Rotulación de flotas</span><i>✦</i><span>Carteles y marquesinas</span><i>✦</i><span>Letras corpóreas</span><i>✦</i><span>Vinilos esmerilados</span><i>✦</i><span>Calcos y stickers</span><i>✦</i><span>Diseño de logos</span><i>✦</i>
     </div>
   </div>
 </section>
 
-<section id="servicios" class="seccion-servicios">
-  <div class="seccion-header">
-    <span class="seccion-tag reveal-up">Lo que hacemos</span>
-    <h2 class="seccion-titulo reveal-up">Nuestros <em>Servicios</em></h2>
-    <p class="seccion-desc reveal-up">Hacé clic en cada servicio para conocer más detalles</p>
-  </div>
+<!-- ============ SERVICIOS ============ -->
+<section id="servicios" class="seccion">
+  <div class="contenedor">
+    <header class="seccion-header reveal">
+      <p class="eyebrow">Lo que hacemos</p>
+      <h2 class="seccion-titulo">Servicios para que <span class="grad">te vean</span></h2>
+      <p class="seccion-desc">Desde un calco hasta la flota completa de tu empresa. Tocá cada servicio para ver en detalle qué incluye.</p>
+    </header>
 
-  <div class="servicios-grid">
+    <div class="servicios-grid">
 
-    <div class="servicio-card reveal-card" data-abierto="false">
-      <div class="servicio-header">
-        <div class="servicio-header-left">
+      <article class="servicio reveal" data-tono="violeta">
+        <button type="button" class="servicio-abrir" data-modal="m-ploteo" aria-haspopup="dialog">
+          <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg></span>
           <span class="servicio-num">01</span>
-          <h3>Ploteo Vehicular</h3>
+          <h3>Ploteo vehicular</h3>
+          <p>Tu vehículo convertido en publicidad que circula todo el día.</p>
+          <ul class="servicio-lista"><li>Ploteo parcial o completo</li><li>Logo, datos y gráfica a medida</li><li>Autos, camionetas, utilitarios y motos</li></ul>
+        </button>
+        <div class="servicio-pie">
+          <button type="button" class="servicio-mas" data-modal="m-ploteo">Ver detalle</button>
+          <a class="servicio-cta" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20un%20ploteo%20vehicular." target="_blank" rel="noopener" data-wa="servicio-ploteo">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
         </div>
-        <span class="toggle-icon" aria-hidden="true"></span>
-      </div>
-      <div class="servicio-body">
-        <p>Transformá tu auto, camioneta o camión en una herramienta publicitaria. Aplicamos vinilo de alta calidad con tu marca, imágenes y diseños que resisten la intemperie.</p>
-        <div class="servicio-fotos">
-          <div class="foto-placeholder">
-            <img src="Img/raptor.webp" alt="RAPTOR F150 DE GALLO AUTOMOTORES en Moreno" width="400" height="300" loading="lazy">
-          </div>
-          <div class="foto-placeholder">
-            <img src="Img/hilux.webp" alt="HILUX TEAM PAZGON en San Miguel" width="400" height="300" loading="lazy">
-          </div>
-        </div>
-      </div>
-    </div>
+      </article>
 
-    <div class="servicio-card reveal-card" data-abierto="false">
-      <div class="servicio-header">
-        <div class="servicio-header-left">
+      <article class="servicio reveal" data-tono="azul">
+        <button type="button" class="servicio-abrir" data-modal="m-flotas" aria-haspopup="dialog">
+          <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></span>
           <span class="servicio-num">02</span>
-          <h3>Diseño de Logotipos</h3>
+          <h3>Camiones y flotas</h3>
+          <p>La imagen de tu empresa, idéntica en cada unidad.</p>
+          <ul class="servicio-lista"><li>Camiones, semis y furgones</li><li>Impresión en gran formato</li><li>Logo, razón social y datos</li></ul>
+        </button>
+        <div class="servicio-pie">
+          <button type="button" class="servicio-mas" data-modal="m-flotas">Ver detalle</button>
+          <a class="servicio-cta" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20la%20rotulaci%C3%B3n%20de%20camiones%20o%20flota." target="_blank" rel="noopener" data-wa="servicio-flotas">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
         </div>
-        <span class="toggle-icon" aria-hidden="true"></span>
-      </div>
-      <div class="servicio-body">
-        <p>Creación de identidad visual desde cero. Logotipos originales y adaptados a tu marca, para usar en cartelería, redes, ropa o packaging.</p>
-        <div class="servicio-fotos">
-          <div class="foto-placeholder">
-            <img src="Img/diseño.webp" alt="Diseños de Ploteo en Moreno" width="400" height="300" loading="lazy">
-          </div>
-          <div class="foto-placeholder">
-            <img src="Img/diseño2.webp" alt="Diseño para Honda Raptor 350 en Cruce Castelar" width="400" height="300" loading="lazy">
-          </div>
-        </div>
-      </div>
-    </div>
+      </article>
 
-    <div class="servicio-card reveal-card" data-abierto="false">
-      <div class="servicio-header">
-        <div class="servicio-header-left">
+      <article class="servicio reveal" data-tono="rosa">
+        <button type="button" class="servicio-abrir" data-modal="m-carteles" aria-haspopup="dialog">
+          <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" x2="15" y1="20" y2="20"/><line x1="12" x2="12" y1="4" y2="20"/></svg></span>
           <span class="servicio-num">03</span>
-          <h3>Publicidad Móvil o Decorativa</h3>
+          <h3>Letras corpóreas y carteles</h3>
+          <p>Que tu local o empresa se vea y se recuerde desde la calle.</p>
+          <ul class="servicio-lista"><li>Letras corpóreas con volumen</li><li>Carteles y marquesinas</li><li>Lonas y banners gran formato</li></ul>
+        </button>
+        <div class="servicio-pie">
+          <button type="button" class="servicio-mas" data-modal="m-carteles">Ver detalle</button>
+          <a class="servicio-cta" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20letras%20corp%C3%B3reas%20o%20un%20cartel." target="_blank" rel="noopener" data-wa="servicio-carteles">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
         </div>
-        <span class="toggle-icon" aria-hidden="true"></span>
-      </div>
-      <div class="servicio-body">
-        <p>Instalamos vinilos o carteles en vehículos con fines publicitarios o estéticos. Ideal para destacar tu marca o personalizar tu auto.</p>
-        <div class="servicio-fotos">
-          <div class="foto-placeholder">
-            <img src="Img/cartel.webp" alt="Cartel Tienda Niños En CABA" width="400" height="300" loading="lazy">
-          </div>
-          <div class="foto-placeholder">
-            <img src="Img/cartel2.webp" alt="Cartel Ferreteria en Moreno" width="400" height="300" loading="lazy">
-          </div>
-        </div>
-      </div>
-    </div>
+      </article>
 
-    <div class="servicio-card reveal-card" data-abierto="false">
-      <div class="servicio-header">
-        <div class="servicio-header-left">
+      <article class="servicio reveal" data-tono="cian">
+        <button type="button" class="servicio-abrir" data-modal="m-vinilos" aria-haspopup="dialog">
+          <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 20V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14"/><path d="M2 20h20"/><path d="M14 12v.01"/></svg></span>
           <span class="servicio-num">04</span>
-          <h3>Vinilos Decorativos y Esmerilados</h3>
+          <h3>Esmerilados y vidrieras</h3>
+          <p>Privacidad con diseño y vidrieras que venden solas.</p>
+          <ul class="servicio-lista"><li>Esmerilado liso o con diseño</li><li>Vidrieras con horarios y servicios</li><li>Microperforado</li></ul>
+        </button>
+        <div class="servicio-pie">
+          <button type="button" class="servicio-mas" data-modal="m-vinilos">Ver detalle</button>
+          <a class="servicio-cta" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20vinilos%20para%20vidrios%20o%20vidriera." target="_blank" rel="noopener" data-wa="servicio-vinilos">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
         </div>
-        <span class="toggle-icon" aria-hidden="true"></span>
-      </div>
-      <div class="servicio-body">
-        <p>Perfectos para ambientar oficinas, locales o viviendas. El vinilo esmerilado simula el vidrio arenado y brinda privacidad con diseño.</p>
-        <div class="servicio-fotos">
-          <div class="foto-placeholder">
-            <img src="Img/vidrio.webp" alt="Vinilo decorativo Consultorio Medico en Moron" width="400" height="300" loading="lazy">
-          </div>
-          <div class="foto-placeholder">
-            <img src="Img/Vidriera2.webp" alt="Vinilo Microperforado en San Miguel" width="400" height="300" loading="lazy">
-          </div>
-        </div>
-      </div>
-    </div>
+      </article>
 
-    <div class="servicio-card reveal-card" data-abierto="false">
-      <div class="servicio-header">
-        <div class="servicio-header-left">
+      <article class="servicio reveal" data-tono="amarillo">
+        <button type="button" class="servicio-abrir" data-modal="m-calcos" aria-haspopup="dialog">
+          <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"/><path d="M15 3v6h6"/><path d="M10 16s.8 1 2 1c1.3 0 2-1 2-1"/><path d="M8 13h.01"/><path d="M16 13h.01"/></svg></span>
           <span class="servicio-num">05</span>
-          <h3>Carteles en Lona o Vinilo</h3>
+          <h3>Calcos, stickers y kits</h3>
+          <p>Desde un sticker para tu producto hasta el kit de un auto de carrera.</p>
+          <ul class="servicio-lista"><li>Stickers para productos y packaging</li><li>Kits para competición, motos y cuatris</li><li>Calcos de seguridad y señalética</li></ul>
+        </button>
+        <div class="servicio-pie">
+          <button type="button" class="servicio-mas" data-modal="m-calcos">Ver detalle</button>
+          <a class="servicio-cta" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20calcos%20o%20stickers." target="_blank" rel="noopener" data-wa="servicio-calcos">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
         </div>
-        <span class="toggle-icon" aria-hidden="true"></span>
-      </div>
-      <div class="servicio-body">
-        <p>Realizamos carteles impresos en gran formato, resistentes a la intemperie. Ideales para promociones, ferias o fachadas.</p>
-        <div class="servicio-fotos">
-          <div class="foto-placeholder">
-            <img src="Img/Camiones2.webp" alt="Vinilo 20m a Semi para Aloha Ituzaingo" width="400" height="300" loading="lazy">
+      </article>
+
+      <article class="servicio reveal" data-tono="verde">
+        <button type="button" class="servicio-abrir" data-modal="m-diseno" aria-haspopup="dialog">
+          <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"/><path d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"/><path d="m2.3 2.3 7.286 7.286"/><circle cx="11" cy="11" r="2"/></svg></span>
+          <span class="servicio-num">06</span>
+          <h3>Diseño gráfico y logos</h3>
+          <p>Tu identidad visual, lista para usar en cualquier soporte.</p>
+          <ul class="servicio-lista"><li>Logo desde cero o rediseño</li><li>Adaptación a cartel, vehículo y redes</li><li>Archivos listos para imprimir</li></ul>
+        </button>
+        <div class="servicio-pie">
+          <button type="button" class="servicio-mas" data-modal="m-diseno">Ver detalle</button>
+          <a class="servicio-cta" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20el%20dise%C3%B1o%20de%20un%20logo." target="_blank" rel="noopener" data-wa="servicio-diseno">Cotizar por WhatsApp <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRABAJOS / GALERÍA ============ -->
+<section id="trabajos" class="seccion seccion-alt">
+  <div class="contenedor">
+    <header class="seccion-header reveal">
+      <p class="eyebrow">Nuestros trabajos</p>
+      <h2 class="seccion-titulo">Trabajos <span class="grad">reales</span></h2>
+      <p class="seccion-desc">Todo lo que ves salió de nuestro taller. Filtrá por tipo de trabajo y tocá una foto para verla grande.</p>
+    </header>
+
+    <div class="filtros" role="group" aria-label="Filtrar trabajos"><button type="button" class="filtro activo" data-filtro="todos">Todos</button><button type="button" class="filtro" data-filtro="vehiculos">Vehículos</button><button type="button" class="filtro" data-filtro="camiones">Camiones</button><button type="button" class="filtro" data-filtro="carteles">Carteles y letras</button><button type="button" class="filtro" data-filtro="vinilos">Vinilos y vidrieras</button><button type="button" class="filtro" data-filtro="calcos">Calcos y kits</button></div>
+
+    <div class="trabajos-grid" id="galeria">
+      <article class="trabajo" data-cat="vehiculos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Auxilio mecánico">
+          <img src="Img/web/saveiro-auxilio-sm.webp" data-full="Img/web/saveiro-auxilio.webp" alt="Auxilio mecánico. Ploteo de laterales y portón con logo, servicios y teléfonos para que lo llamen desde la calle." width="431" height="560" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Vehículos</span>
+          <h3>Auxilio mecánico</h3>
+          <p>Ploteo de laterales y portón con logo, servicios y teléfonos para que lo llamen desde la calle.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="carteles">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: ALMA Espacios Laborales">
+          <img src="Img/web/letras-corporeas-alma-sm.webp" data-full="Img/web/letras-corporeas-alma.webp" alt="ALMA Espacios Laborales. Letras corpóreas y logo con volumen sobre la fachada de la empresa." width="560" height="416" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Carteles y letras</span>
+          <h3>ALMA Espacios Laborales</h3>
+          <p>Letras corpóreas y logo con volumen sobre la fachada de la empresa.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="carteles">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Papelera">
+          <img src="Img/web/cartel-papelera-sm.webp" data-full="Img/web/cartel-papelera.webp" alt="Papelera. Marquesina de frente con nombre, rubros y datos de contacto." width="560" height="517" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Carteles y letras</span>
+          <h3>Papelera</h3>
+          <p>Marquesina de frente con nombre, rubros y datos de contacto.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="camiones">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Transcont">
+          <img src="Img/web/camion-transcont-sm.webp" data-full="Img/web/camion-transcont.webp" alt="Transcont. Logo y datos de la empresa en las puertas de la cabina." width="552" height="560" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Camiones</span>
+          <h3>Transcont</h3>
+          <p>Logo y datos de la empresa en las puertas de la cabina.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="vinilos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Lavadero Las Flores">
+          <img src="Img/web/vidriera-lavadero-sm.webp" data-full="Img/web/vidriera-lavadero.webp" alt="Lavadero Las Flores. Cartel de frente y vidriera con servicios, horarios y detalles decorativos." width="439" height="560" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Vinilos y vidrieras</span>
+          <h3>Lavadero Las Flores</h3>
+          <p>Cartel de frente y vidriera con servicios, horarios y detalles decorativos.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="calcos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Auto de competición">
+          <img src="Img/web/auto-competicion-sm.webp" data-full="Img/web/auto-competicion.webp" alt="Auto de competición. Kit completo de calcos con número y sponsors del equipo." width="532" height="560" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Calcos y kits</span>
+          <h3>Auto de competición</h3>
+          <p>Kit completo de calcos con número y sponsors del equipo.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="vinilos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Puerta con esmerilado">
+          <img src="Img/web/esmerilado-puerta-diseno-sm.webp" data-full="Img/web/esmerilado-puerta-diseno.webp" alt="Puerta con esmerilado. Vinilo esmerilado con diseño geométrico: privacidad sin perder luz." width="560" height="555" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Vinilos y vidrieras</span>
+          <h3>Puerta con esmerilado</h3>
+          <p>Vinilo esmerilado con diseño geométrico: privacidad sin perder luz.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="camiones">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Scania · SHW">
+          <img src="Img/web/scania-shw-sm.webp" data-full="Img/web/scania-shw.webp" alt="Scania · SHW. Gráfica en el frente de la cabina con la marca del transportista." width="423" height="560" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Camiones</span>
+          <h3>Scania · SHW</h3>
+          <p>Gráfica en el frente de la cabina con la marca del transportista.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="camiones">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Heladería Aloha">
+          <img src="Img/web/semi-aloha-sm.webp" data-full="Img/web/semi-aloha.webp" alt="Heladería Aloha. Lateral completo de un semirremolque impreso en gran formato." width="720" height="507" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Camiones</span>
+          <h3>Heladería Aloha</h3>
+          <p>Lateral completo de un semirremolque impreso en gran formato.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="vehiculos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Team Pazgon">
+          <img src="Img/web/hilux-pazgon-sm.webp" data-full="Img/web/hilux-pazgon.webp" alt="Team Pazgon. Gráfica lateral en vinilo sobre Toyota Hilux." width="720" height="405" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Vehículos</span>
+          <h3>Team Pazgon</h3>
+          <p>Gráfica lateral en vinilo sobre Toyota Hilux.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="carteles">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Papelera · estructura">
+          <img src="Img/web/cartel-papelera-estructura-sm.webp" data-full="Img/web/cartel-papelera-estructura.webp" alt="Papelera · estructura. Estructura metálica y lona de la marquesina vistas desde abajo." width="431" height="560" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Carteles y letras</span>
+          <h3>Papelera · estructura</h3>
+          <p>Estructura metálica y lona de la marquesina vistas desde abajo.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="carteles">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Ferretería Aníbal">
+          <img src="Img/web/cartel-ferreteria-sm.webp" data-full="Img/web/cartel-ferreteria.webp" alt="Ferretería Aníbal. Cartel impreso en gran formato con rubros y teléfono." width="720" height="405" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Carteles y letras</span>
+          <h3>Ferretería Aníbal</h3>
+          <p>Cartel impreso en gran formato con rubros y teléfono.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="vinilos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Oficina">
+          <img src="Img/web/esmerilado-oficina-sm.webp" data-full="Img/web/esmerilado-oficina.webp" alt="Oficina. Esmerilado con logo en las divisiones de vidrio." width="720" height="405" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Vinilos y vidrieras</span>
+          <h3>Oficina</h3>
+          <p>Esmerilado con logo en las divisiones de vidrio.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="calcos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Yamaha Raptor 350">
+          <img src="Img/web/kit-moto-sm.webp" data-full="Img/web/kit-moto.webp" alt="Yamaha Raptor 350. Diseño e impresión de kit gráfico a medida para cuatriciclo." width="405" height="720" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Calcos y kits</span>
+          <h3>Yamaha Raptor 350</h3>
+          <p>Diseño e impresión de kit gráfico a medida para cuatriciclo.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="vehiculos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Gallo Automotores">
+          <img src="Img/web/raptor-gallo-sm.webp" data-full="Img/web/raptor-gallo.webp" alt="Gallo Automotores. Logo de la concesionaria en las puertas de una Ford Raptor." width="703" height="720" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Vehículos</span>
+          <h3>Gallo Automotores</h3>
+          <p>Logo de la concesionaria en las puertas de una Ford Raptor.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="camiones">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: West Premium Cold">
+          <img src="Img/web/camion-wpc-sm.webp" data-full="Img/web/camion-wpc.webp" alt="West Premium Cold. Rotulado de caja refrigerada con logo y diseño de copos de nieve." width="540" height="720" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Camiones</span>
+          <h3>West Premium Cold</h3>
+          <p>Rotulado de caja refrigerada con logo y diseño de copos de nieve.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="carteles">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Kiosco">
+          <img src="Img/web/cartel-kiosco-sm.webp" data-full="Img/web/cartel-kiosco.webp" alt="Kiosco. Carteles verticales tipo tótem con los rubros del local." width="405" height="720" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Carteles y letras</span>
+          <h3>Kiosco</h3>
+          <p>Carteles verticales tipo tótem con los rubros del local.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="vinilos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Local de seguros">
+          <img src="Img/web/vidriera-seguros-sm.webp" data-full="Img/web/vidriera-seguros.webp" alt="Local de seguros. Vinilos en vidriera con servicios y datos de contacto." width="542" height="720" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Vinilos y vidrieras</span>
+          <h3>Local de seguros</h3>
+          <p>Vinilos en vidriera con servicios y datos de contacto.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="camiones">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Heladería">
+          <img src="Img/web/semi-heladeros-sm.webp" data-full="Img/web/semi-heladeros.webp" alt="Heladería. Rotulado del lateral de un semirremolque con la marca." width="544" height="720" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Camiones</span>
+          <h3>Heladería</h3>
+          <p>Rotulado del lateral de un semirremolque con la marca.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="calcos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Kit aplicado">
+          <img src="Img/web/cuatri-raptor-sm.webp" data-full="Img/web/cuatri-raptor.webp" alt="Kit aplicado. Cuatriciclo con el kit gráfico ya colocado, listo para entregar." width="405" height="720" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Calcos y kits</span>
+          <h3>Kit aplicado</h3>
+          <p>Cuatriciclo con el kit gráfico ya colocado, listo para entregar.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="carteles">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: La Fábrica Kids">
+          <img src="Img/web/cartel-la-fabrica-sm.webp" data-full="Img/web/cartel-la-fabrica.webp" alt="La Fábrica Kids. Cartel vertical y cartelería para tienda infantil." width="720" height="720" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Carteles y letras</span>
+          <h3>La Fábrica Kids</h3>
+          <p>Cartel vertical y cartelería para tienda infantil.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="vinilos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Esmerilado liso">
+          <img src="Img/web/esmerilado-puerta-sm.webp" data-full="Img/web/esmerilado-puerta.webp" alt="Esmerilado liso. Puerta de vidrio cubierta con esmerilado liso para dar privacidad." width="439" height="560" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Vinilos y vidrieras</span>
+          <h3>Esmerilado liso</h3>
+          <p>Puerta de vidrio cubierta con esmerilado liso para dar privacidad.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="vehiculos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Utilitario">
+          <img src="Img/web/utilitario-taller-sm.webp" data-full="Img/web/utilitario-taller.webp" alt="Utilitario. Utilitario en proceso de ploteo en nuestro taller." width="436" height="560" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Vehículos</span>
+          <h3>Utilitario</h3>
+          <p>Utilitario en proceso de ploteo en nuestro taller.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="calcos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Calcos de seguridad">
+          <img src="Img/web/calcos-impresion-sm.webp" data-full="Img/web/calcos-impresion.webp" alt="Calcos de seguridad. Planchas de calcos de señalética saliendo del plotter." width="720" height="405" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Calcos y kits</span>
+          <h3>Calcos de seguridad</h3>
+          <p>Planchas de calcos de señalética saliendo del plotter.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="vehiculos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Hilux en taller">
+          <img src="Img/web/hilux-ploteo-sm.webp" data-full="Img/web/hilux-ploteo.webp" alt="Hilux en taller. Aplicación de vinilo sobre Toyota Hilux en nuestro taller." width="405" height="720" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Vehículos</span>
+          <h3>Hilux en taller</h3>
+          <p>Aplicación de vinilo sobre Toyota Hilux en nuestro taller.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="carteles">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Lona gran formato">
+          <img src="Img/web/cartel-lona-sm.webp" data-full="Img/web/cartel-lona.webp" alt="Lona gran formato. Lona impresa en gran formato lista para instalar." width="720" height="720" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Carteles y letras</span>
+          <h3>Lona gran formato</h3>
+          <p>Lona impresa en gran formato lista para instalar.</p>
+        </div>
+      </article>
+      <article class="trabajo" data-cat="vehiculos">
+        <button type="button" class="trabajo-foto" aria-label="Ampliar foto: Rotulado a mano">
+          <img src="Img/web/rotulado-utilitario-sm.webp" data-full="Img/web/rotulado-utilitario.webp" alt="Rotulado a mano. Aplicación de gráfica sobre el lateral de una camioneta." width="542" height="720" loading="lazy">
+        </button>
+        <div class="trabajo-info">
+          <span class="trabajo-cat">Vehículos</span>
+          <h3>Rotulado a mano</h3>
+          <p>Aplicación de gráfica sobre el lateral de una camioneta.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="centro galeria-acciones">
+      <button type="button" class="btn btn-ghost" id="verMas" aria-controls="galeria">Ver más trabajos <span id="verMasN"></span></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESO ============ -->
+<section id="proceso" class="seccion">
+  <div class="contenedor">
+    <header class="seccion-header reveal">
+      <p class="eyebrow">Simple y sin vueltas</p>
+      <h2 class="seccion-titulo">Cómo <span class="grad">trabajamos</span></h2>
+    </header>
+
+    <ol class="pasos">
+      <li class="paso reveal">
+        <span class="paso-num">1</span>
+        <h3>Nos contás tu idea</h3>
+        <p>Por WhatsApp, por teléfono o en el local. Si tenés fotos o medidas, mejor.</p>
+      </li>
+      <li class="paso reveal">
+        <span class="paso-num">2</span>
+        <h3>Diseño y presupuesto</h3>
+        <p>Te pasamos el presupuesto y una propuesta visual para que veas cómo va a quedar.</p>
+      </li>
+      <li class="paso reveal">
+        <span class="paso-num">3</span>
+        <h3>Producción</h3>
+        <p>Imprimimos y cortamos en nuestro taller con materiales de primera calidad.</p>
+      </li>
+      <li class="paso reveal">
+        <span class="paso-num">4</span>
+        <h3>Instalación</h3>
+        <p>Aplicamos el trabajo terminado y te lo entregamos listo para lucirse.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ NOSOTROS ============ -->
+<section id="nosotros" class="seccion seccion-alt seccion-nosotros">
+  <div class="contenedor nosotros-grid">
+    <div class="nosotros-foto reveal">
+      <img src="Img/web/taller-produccion-sm.webp" alt="Trabajando en el taller de Gráfica Roca, con rollos de vinilo de colores de fondo" width="458" height="560" loading="lazy">
+      <div class="nosotros-sello"><strong>+20</strong><span>años</span></div>
+    </div>
+    <div class="nosotros-texto reveal">
+      <p class="eyebrow">Quiénes somos</p>
+      <h2 class="seccion-titulo">Más de 20 años haciendo que las marcas <span class="grad">se vean increíbles</span></h2>
+      <p>Gráfica Roca nace de más de dos décadas trabajando en cartelería, ploteo y gráfica para otras marcas. Con toda esa experiencia abrimos nuestro propio local, donde hoy atendemos en persona a negocios, empresas, emprendedores y particulares.</p>
+      <p>Nos importa que cada trabajo quede impecable: asesoramos, diseñamos, producimos e instalamos, con atención personalizada de principio a fin.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section id="preguntas" class="seccion">
+  <div class="contenedor contenedor-angosto">
+    <header class="seccion-header reveal">
+      <p class="eyebrow">Dudas frecuentes</p>
+      <h2 class="seccion-titulo">Preguntas <span class="grad">frecuentes</span></h2>
+    </header>
+
+    <div class="faq reveal">
+      <details>
+        <summary>¿Cómo pido un presupuesto?</summary>
+        <p>Lo más rápido es por WhatsApp: contanos qué necesitás, las medidas aproximadas y, si podés, mandanos una foto del lugar o del vehículo. También podés completar el formulario de abajo y se arma el mensaje solo.</p>
+      </details>
+      <details>
+        <summary>¿Tengo que llevar el diseño hecho?</summary>
+        <p>No. Si ya tenés tu logo o diseño lo adaptamos; si no, lo creamos desde cero. Siempre te mostramos cómo va a quedar antes de imprimir.</p>
+      </details>
+      <details>
+        <summary>¿Cuánto tarda un trabajo?</summary>
+        <p>Depende del tamaño y del tipo de trabajo. Cuando te pasamos el presupuesto te confirmamos también el plazo de entrega, así sabés desde el principio cuándo lo tenés.</p>
+      </details>
+      <details>
+        <summary>¿Trabajan con empresas y flotas?</summary>
+        <p>Sí. Rotulamos camiones, semis y vehículos de empresa, manteniendo la misma imagen en todas las unidades.</p>
+      </details>
+      <details>
+        <summary>¿Trabajan fuera de Moreno?</summary>
+        <p>Sí, hicimos trabajos en distintos puntos de Zona Oeste y CABA. Escribinos contándonos dónde estás y lo coordinamos.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRESUPUESTO (form → WhatsApp) ============ -->
+<section id="presupuesto" class="seccion seccion-cta">
+  <div class="contenedor cta-grid">
+    <div class="cta-texto reveal">
+      <p class="eyebrow">Presupuesto sin compromiso</p>
+      <h2 class="seccion-titulo">¿Arrancamos con <span class="grad">tu proyecto?</span></h2>
+      <p>Completá estos datos y te abrimos WhatsApp con el mensaje listo para enviar. Sin registros, sin vueltas.</p>
+    </div>
+
+    <form class="form reveal" id="formPresupuesto" novalidate>
+      <label>
+        <span>Tu nombre</span>
+        <input type="text" name="nombre" autocomplete="given-name" placeholder="Ej: Martín" required>
+      </label>
+      <label>
+        <span>¿Qué necesitás?</span>
+        <select name="servicio" required>
+          <option value="" disabled selected>Elegí un servicio</option>
+          <option>Ploteo vehicular</option>
+          <option>Rotulación de camión / flota</option>
+          <option>Cartel o marquesina</option>
+          <option>Letras corpóreas</option>
+          <option>Vinilo esmerilado / vidriera</option>
+          <option>Calcos o stickers</option>
+          <option>Diseño de logo</option>
+          <option>Otro</option>
+        </select>
+      </label>
+      <label>
+        <span>Contanos un poco más <em>(opcional)</em></span>
+        <textarea name="detalle" rows="3" placeholder="Medidas, cantidad, vehículo, para cuándo lo necesitás…"></textarea>
+      </label>
+      <p class="form-error" id="formError" role="alert" hidden>Completá tu nombre y elegí un servicio.</p>
+      <button type="submit" class="btn btn-primario btn-bloque">
+        <svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Enviar por WhatsApp
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ UBICACIÓN ============ -->
+<section id="ubicacion" class="seccion">
+  <div class="contenedor">
+    <header class="seccion-header reveal">
+      <p class="eyebrow">Encontranos</p>
+      <h2 class="seccion-titulo">Ubicación y <span class="grad">horarios</span></h2>
+    </header>
+
+    <div class="ubicacion-grid">
+      <div class="ubicacion-info reveal">
+        <div class="info">
+          <svg class="info-ico" aria-hidden="true"><use href="#i-pin"/></svg>
+          <div>
+            <h3>Dirección</h3>
+            <p>Av. Néstor Kirchner 2869<br>Moreno, Provincia de Buenos Aires</p>
+            <a class="link" href="https://www.google.com/maps/dir/?api=1&destination=Grafica+Roca+Av.+Nestor+Kirchner+2869+Moreno" target="_blank" rel="noopener" data-evento="como_llegar">Cómo llegar →</a>
           </div>
-          <div class="foto-placeholder">
-            <img src="Img/Camion.webp" alt="Logo de Empresa a Camion para Aloga en Parque Leloir" width="400" height="300" loading="lazy">
+        </div>
+        <div class="info">
+          <svg class="info-ico" aria-hidden="true"><use href="#i-reloj"/></svg>
+          <div>
+            <h3>Horarios <span class="estado" id="estadoLocal"></span></h3>
+            <p>Lunes a viernes: 9 a 19 hs<br>Sábados: 9 a 14 hs<br>Domingos y feriados: cerrado</p>
+          </div>
+        </div>
+        <div class="info">
+          <svg class="info-ico" aria-hidden="true"><use href="#i-wa"/></svg>
+          <div>
+            <h3>WhatsApp y teléfono</h3>
+            <a href="https://wa.me/5491169326880" target="_blank" rel="noopener" class="wa-link" data-wa="ubicacion">11 6932-6880</a>
           </div>
         </div>
       </div>
-    </div>
 
-  </div>
-</section>
-
-<section id="sobrenosotros" class="seccion-nosotros">
-  <div class="nosotros-bg-text">ROCA</div>
-  <div class="nosotros-contenido">
-    <div class="nosotros-left reveal-left">
-      <span class="seccion-tag tag-claro">Quiénes somos</span>
-      <h2 class="nosotros-titulo">Más de <em>20 años</em><br>haciendo que las<br>marcas se vean<br>increíbles.</h2>
-      <a href="https://wa.me/5491169326880" target="_blank" rel="noopener" class="hero-btn">Hablemos de tu proyecto ↗</a>
-    </div>
-    <div class="nosotros-right reveal-right">
-      <p class="nosotros-texto">Gráfica Roca se especializa en cartelería, ploteo vehicular, letras corpóreas y mucho más. Llevamos más de 20 años en el rubro brindando soluciones gráficas rápidas, creativas y con materiales de primera calidad.</p>
-      <p class="nosotros-texto">Después de años de experiencia trabajando para otras marcas, hace 2 años dimos el gran paso y abrimos nuestro propio local, donde hoy ofrecemos atención personalizada y asesoramiento integral — online, telefónico y presencial — para empresas, negocios, emprendimientos y profesionales que buscan destacar con su imagen.</p>
-      <div class="nosotros-stats">
-        <div class="stat">
-          <span class="stat-num counter" data-target="20">0</span><span class="stat-num">+</span>
-          <span class="stat-label">Años de experiencia</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num">∞</span>
-          <span class="stat-label">Proyectos realizados</span>
-        </div>
-        <div class="stat">
-          <span class="stat-num counter" data-target="100">0</span><span class="stat-num">%</span>
-          <span class="stat-label">Satisfacción garantizada</span>
-        </div>
+      <div class="mapa reveal" id="mapa">
+        <iframe title="Mapa de Gráfica Roca"
+          data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.4122441612676!2d-58.73877308842458!3d-34.59373577284515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf9f47498e51%3A0x3c883ed756da609e!2sGrafica%20Roca!5e0!3m2!1ses!2sar!4v1749263517006!5m2!1ses!2sar"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
       </div>
     </div>
   </div>
 </section>
 
-<section id="ubicacion" class="seccion-ubicacion">
-  <div class="seccion-header">
-    <span class="seccion-tag reveal-up">Encontranos</span>
-    <h2 class="seccion-titulo reveal-up">Ubicación <em>& Horarios</em></h2>
-  </div>
-  <div class="ubicacion-grid">
-    <div class="ubicacion-info reveal-left">
-      <div class="info-bloque">
-        <span class="info-icono"></span>
-        <div>
-          <h3>Dirección</h3>
-          <p>Av. Néstor Kirchner 2869</p>
-          <p>Moreno, Provincia de Buenos Aires</p>
-        </div>
-      </div>
-      <div class="info-bloque">
-        <span class="info-icono"></span>
-        <div>
-          <h3>Horarios</h3>
-          <p>Lunes a Viernes: 9 a 19 hs</p>
-          <p>Sábados: 9 a 14 hs</p>
-          <p>Domingos y Feriados: <strong>Cerrado</strong></p>
-        </div>
-      </div>
-      <div class="info-bloque">
-        <span class="info-icono"></span>
-        <div>
-          <h3>WhatsApp</h3>
-          <a href="https://wa.me/5491169326880" target="_blank" rel="noopener" class="wa-link">11 6932-6880</a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="mapa reveal-right">
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.4122441612676!2d-58.73877308842458!3d-34.59373577284515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf9f47498e51%3A0x3c883ed756da609e!2sGrafica%20Roca!5e0!3m2!1ses!2sar!4v1749263517006!5m2!1ses!2sar"
-        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-        title="Ubicación Gráfica Roca" width="600" height="450" style="border:0;">
-       Downsides
-      </iframe>
-    </div>
-  </div>
-</section>
+</main>
 
+<!-- ============ FOOTER ============ -->
 <footer class="footer">
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <p class="footer-marca">GRÁFICA ROCA</p>
-      <p class="footer-tagline">Diseño · Impresión · Profesional</p>
+  <div class="contenedor footer-inner">
+    <div>
+      <p class="footer-marca">GRÁFICA <b>ROCA</b></p>
+      <p class="footer-tag">Diseño · Impresión · Instalación</p>
     </div>
-    <div class="footer-links">
-      <a href="#inicio" class="footer-link">Inicio</a>
-      <a href="#servicios" class="footer-link">Servicios</a>
-      <a href="#sobrenosotros" class="footer-link">Nosotros</a>
-      <a href="#ubicacion" class="footer-link">Ubicación</a>
-    </div>
-    <p class="footer-sub">© 2025 — Todos los derechos reservados</p>
+    <nav class="footer-links" aria-label="Pie de página">
+      <a href="#servicios">Servicios</a>
+      <a href="#trabajos">Trabajos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#preguntas">Preguntas frecuentes</a>
+      <a href="#ubicacion">Ubicación</a>
+    </nav>
+    <a href="https://wa.me/5491169326880" target="_blank" rel="noopener" class="btn btn-ghost btn-sm" data-wa="footer">11 6932-6880</a>
   </div>
+  <p class="footer-sub">© <span id="anio">2026</span> Gráfica Roca · Av. Néstor Kirchner 2869, Moreno · Web por <a href="https://skilariodev.com.ar" target="_blank" rel="noopener">Skilario Dev Studio</a></p>
 </footer>
 
-<a class="whatsapp" href="https://wa.me/5491169326880" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
-  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" width="48" height="48">
+<!-- WhatsApp flotante (desktop) -->
+<a class="wa-flotante" href="https://wa.me/5491169326880?text=Hola%20Gr%C3%A1fica%20Roca!%20Quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp" data-wa="flotante">
+  <svg aria-hidden="true"><use href="#i-wa"/></svg>
+  <span class="wa-burbuja">¿Consultas? Escribinos</span>
 </a>
 
-<button class="scroll-top" id="scrollTop" aria-label="Volver al inicio">↑</button>
 
-<div class="lightbox-overlay" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada">
-  <div class="lightbox-img-wrap">
-    <button class="lightbox-cerrar" id="lightboxCerrar" aria-label="Cerrar">✕</button>
-    <img id="lightboxImg" src="" alt="" width="800" height="600">
-    <p class="lightbox-caption" id="lightboxCaption"></p>
+
+<!-- Modales de servicios -->
+<dialog class="modal" id="m-ploteo" data-tono="violeta" aria-labelledby="m-ploteo-t">
+  <div class="modal-caja">
+    <button type="button" class="modal-cerrar" data-cerrar aria-label="Cerrar">✕</button>
+    <div class="modal-head">
+      <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg></span>
+      <h2 id="m-ploteo-t">Ploteo vehicular</h2>
+    </div>
+    <p class="modal-intro">El ploteo es la aplicación de vinilo autoadhesivo (impreso o de corte) sobre la carrocería. Es una de las publicidades más rendidoras que existen: la pagás una vez y tu marca se ve en cada viaje, cada estacionamiento y cada semáforo.</p>
+    <h3>¿Para quién es?</h3>
+    <p>Comercios, profesionales, servicios a domicilio (plomeros, electricistas, auxilio mecánico, fletes) y cualquiera que quiera personalizar su vehículo.</p>
+    <h3>Qué podemos hacer</h3>
+    <ul class="modal-lista"><li><b>Ploteo parcial:</b> puertas, laterales, luneta o capot, con logo y datos de contacto.</li><li><b>Ploteo completo:</b> el vehículo entero cubierto con tu diseño.</li><li><b>Vinilo de corte:</b> letras y logos recortados, prolijos y económicos.</li><li><b>Microperforado en lunetas:</b> la gráfica se ve desde afuera y desde adentro seguís viendo hacia afuera.</li></ul>
+    <div class="modal-tip">
+      <h3>Para cotizar más rápido, mandanos:</h3>
+      <ul><li>Fotos del vehículo de costado, de frente y de atrás</li><li>Marca, modelo y año</li><li>Tu logo (si tenés) y los datos que querés mostrar</li></ul>
+    </div>
+    <div class="modal-acciones">
+      <a class="btn btn-primario" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20un%20ploteo%20vehicular." target="_blank" rel="noopener" data-wa="modal-ploteo"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Cotizar por WhatsApp</a>
+      <button type="button" class="btn btn-ghost btn-sm" data-ver-cat="vehiculos">Ver trabajos de este tipo</button>
+    </div>
   </div>
+</dialog>
+
+<dialog class="modal" id="m-flotas" data-tono="azul" aria-labelledby="m-flotas-t">
+  <div class="modal-caja">
+    <button type="button" class="modal-cerrar" data-cerrar aria-label="Cerrar">✕</button>
+    <div class="modal-head">
+      <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg></span>
+      <h2 id="m-flotas-t">Camiones y flotas</h2>
+    </div>
+    <p class="modal-intro">Rotulamos camiones, semirremolques, cajas refrigeradas y utilitarios de empresa. Un camión rotulado recorre cientos de kilómetros por semana mostrando tu marca, y una flota prolija transmite seriedad antes de que el cliente te conozca.</p>
+    <h3>¿Para quién es?</h3>
+    <p>Empresas de transporte y logística, distribuidoras, fábricas y comercios con vehículos de reparto.</p>
+    <h3>Qué podemos hacer</h3>
+    <ul class="modal-lista"><li><b>Laterales completos</b>, impresos en gran formato para unidades de cualquier tamaño.</li><li><b>Puertas de cabina</b> con logo, razón social, dirección y teléfono.</li><li><b>Frentes y parasoles</b> con la marca del transportista.</li><li><b>Flotas:</b> mismo diseño, colores y medidas en todas las unidades.</li></ul>
+    <div class="modal-tip">
+      <h3>Para cotizar más rápido, mandanos:</h3>
+      <ul><li>Cantidad de unidades y modelos</li><li>Fotos de cada lateral y del frente</li><li>Tu logo en la mejor calidad que tengas</li></ul>
+    </div>
+    <div class="modal-acciones">
+      <a class="btn btn-primario" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20la%20rotulaci%C3%B3n%20de%20camiones%20o%20flota." target="_blank" rel="noopener" data-wa="modal-flotas"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Cotizar por WhatsApp</a>
+      <button type="button" class="btn btn-ghost btn-sm" data-ver-cat="camiones">Ver trabajos de este tipo</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="modal" id="m-carteles" data-tono="rosa" aria-labelledby="m-carteles-t">
+  <div class="modal-caja">
+    <button type="button" class="modal-cerrar" data-cerrar aria-label="Cerrar">✕</button>
+    <div class="modal-head">
+      <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" x2="15" y1="20" y2="20"/><line x1="12" x2="12" y1="4" y2="20"/></svg></span>
+      <h2 id="m-carteles-t">Letras corpóreas y carteles</h2>
+    </div>
+    <p class="modal-intro">El frente es lo primero que ve un cliente. Hacemos letras corpóreas (letras con volumen que se fijan a la fachada y le dan presencia a tu marca) y todo tipo de carteles para que tu negocio se lea de lejos y se vea profesional.</p>
+    <h3>¿Para quién es?</h3>
+    <p>Locales a la calle, oficinas, empresas, emprendimientos, ferias y eventos.</p>
+    <h3>Qué podemos hacer</h3>
+    <ul class="modal-lista"><li><b>Letras corpóreas:</b> logo y nombre en relieve para fachadas e interiores.</li><li><b>Carteles y marquesinas</b> para el frente del local.</li><li><b>Lonas y banners</b> impresos en gran formato para frentes, obras, ferias o promociones.</li><li><b>Carteles verticales y tótems</b> para vereda o interior.</li></ul>
+    <div class="modal-tip">
+      <h3>Para cotizar más rápido, mandanos:</h3>
+      <ul><li>Medidas aproximadas del espacio</li><li>Una foto del frente o de la pared</li><li>Tu logo o el texto que querés poner</li></ul>
+    </div>
+    <div class="modal-acciones">
+      <a class="btn btn-primario" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20letras%20corp%C3%B3reas%20o%20un%20cartel." target="_blank" rel="noopener" data-wa="modal-carteles"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Cotizar por WhatsApp</a>
+      <button type="button" class="btn btn-ghost btn-sm" data-ver-cat="carteles">Ver trabajos de este tipo</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="modal" id="m-vinilos" data-tono="cian" aria-labelledby="m-vinilos-t">
+  <div class="modal-caja">
+    <button type="button" class="modal-cerrar" data-cerrar aria-label="Cerrar">✕</button>
+    <div class="modal-head">
+      <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 20V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14"/><path d="M2 20h20"/><path d="M14 12v.01"/></svg></span>
+      <h2 id="m-vinilos-t">Esmerilados y vidrieras</h2>
+    </div>
+    <p class="modal-intro">El vinilo esmerilado imita el vidrio arenado: da privacidad pero deja pasar la luz. En vidrieras, el vinilo convierte el vidrio en un cartel que trabaja las 24 horas, aunque el local esté cerrado.</p>
+    <h3>¿Para quién es?</h3>
+    <p>Oficinas, consultorios, puertas de casas y departamentos, locales comerciales y cualquier vidrio que quieras decorar o tapar.</p>
+    <h3>Qué podemos hacer</h3>
+    <ul class="modal-lista"><li><b>Esmerilado liso</b> para tapar la visión en puertas, divisiones y baños.</li><li><b>Esmerilado con diseño:</b> franjas, figuras o tu logo recortado.</li><li><b>Vidrieras:</b> logo, servicios, horarios y teléfono.</li><li><b>Microperforado:</b> gráfica a todo color que desde adentro deja ver hacia afuera.</li></ul>
+    <div class="modal-tip">
+      <h3>Para cotizar más rápido, mandanos:</h3>
+      <ul><li>Medidas de cada vidrio (ancho × alto)</li><li>Una foto del lugar</li><li>Qué querés lograr: privacidad, decorar o publicitar</li></ul>
+    </div>
+    <div class="modal-acciones">
+      <a class="btn btn-primario" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20vinilos%20para%20vidrios%20o%20vidriera." target="_blank" rel="noopener" data-wa="modal-vinilos"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Cotizar por WhatsApp</a>
+      <button type="button" class="btn btn-ghost btn-sm" data-ver-cat="vinilos">Ver trabajos de este tipo</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="modal" id="m-calcos" data-tono="amarillo" aria-labelledby="m-calcos-t">
+  <div class="modal-caja">
+    <button type="button" class="modal-cerrar" data-cerrar aria-label="Cerrar">✕</button>
+    <div class="modal-head">
+      <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"/><path d="M15 3v6h6"/><path d="M10 16s.8 1 2 1c1.3 0 2-1 2-1"/><path d="M8 13h.01"/><path d="M16 13h.01"/></svg></span>
+      <h2 id="m-calcos-t">Calcos, stickers y kits</h2>
+    </div>
+    <p class="modal-intro">Imprimimos y cortamos calcos a medida con el contorno que necesites. Sirven para identificar productos, decorar, señalizar o armar el kit completo de un vehículo de competición con todos sus sponsors.</p>
+    <h3>¿Para quién es?</h3>
+    <p>Emprendedores con productos propios, empresas que necesitan señalética, pilotos y equipos, y fanáticos de las motos y cuatris.</p>
+    <h3>Qué podemos hacer</h3>
+    <ul class="modal-lista"><li><b>Stickers para productos,</b> frascos, packaging y regalos.</li><li><b>Kits de competición</b> con número, sponsors y diseño de equipo.</li><li><b>Kits para motos y cuatris</b> diseñados para cada modelo.</li><li><b>Señalética y seguridad:</b> matafuegos, riesgo eléctrico, salidas, etc.</li></ul>
+    <div class="modal-tip">
+      <h3>Para cotizar más rápido, mandanos:</h3>
+      <ul><li>Cantidad y tamaño aproximado</li><li>Si va en interior o exterior</li><li>El diseño o una idea de lo que querés</li></ul>
+    </div>
+    <div class="modal-acciones">
+      <a class="btn btn-primario" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20calcos%20o%20stickers." target="_blank" rel="noopener" data-wa="modal-calcos"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Cotizar por WhatsApp</a>
+      <button type="button" class="btn btn-ghost btn-sm" data-ver-cat="calcos">Ver trabajos de este tipo</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="modal" id="m-diseno" data-tono="verde" aria-labelledby="m-diseno-t">
+  <div class="modal-caja">
+    <button type="button" class="modal-cerrar" data-cerrar aria-label="Cerrar">✕</button>
+    <div class="modal-head">
+      <span class="servicio-ico"><svg class="s-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"/><path d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"/><path d="m2.3 2.3 7.286 7.286"/><circle cx="11" cy="11" r="2"/></svg></span>
+      <h2 id="m-diseno-t">Diseño gráfico y logos</h2>
+    </div>
+    <p class="modal-intro">Un buen logo hace que te reconozcan y te recuerden. Lo diseñamos pensando en dónde se va a usar: que se lea bien en un cartel a 30 metros, en la puerta de una camioneta y en el perfil de Instagram.</p>
+    <h3>¿Para quién es?</h3>
+    <p>Negocios que arrancan, marcas que necesitan renovarse y cualquiera que tenga un logo que no se ve bien impreso.</p>
+    <h3>Qué podemos hacer</h3>
+    <ul class="modal-lista"><li><b>Logo nuevo</b> a partir de lo que hace tu negocio y lo que te gusta.</li><li><b>Rediseño</b> o vectorización de un logo existente.</li><li><b>Adaptaciones</b> para cartelería, vehículos, redes y ropa.</li><li><b>Diseño de piezas:</b> carteles, kits, vidrieras y más.</li></ul>
+    <div class="modal-tip">
+      <h3>Para cotizar más rápido, mandanos:</h3>
+      <ul><li>A qué se dedica tu negocio</li><li>Colores o estilos que te gustan</li><li>Si ya tenés un logo, mandalo aunque sea una foto</li></ul>
+    </div>
+    <div class="modal-acciones">
+      <a class="btn btn-primario" href="https://wa.me/5491169326880?text=Hola!%20Quiero%20cotizar%20el%20dise%C3%B1o%20de%20un%20logo." target="_blank" rel="noopener" data-wa="modal-diseno"><svg class="ico" aria-hidden="true"><use href="#i-wa"/></svg> Cotizar por WhatsApp</a>
+      
+    </div>
+  </div>
+</dialog>
+<!-- /Modales -->
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+  <button class="lb-btn lb-cerrar" id="lbCerrar" aria-label="Cerrar">✕</button>
+  <button class="lb-btn lb-prev" id="lbPrev" aria-label="Foto anterior">‹</button>
+  <figure>
+    <img id="lbImg" src="" alt="">
+    <figcaption id="lbCaption"></figcaption>
+  </figure>
+  <button class="lb-btn lb-next" id="lbNext" aria-label="Foto siguiente">›</button>
 </div>
 
-<script>
-  // Cargar mapa solo al hacer scroll o al cargar completamente la página
-  window.addEventListener('load', () => {
-    const map = document.getElementById('mapa-frame');
-    map.src = map.dataset.src;
-  });
-</script>
+<!-- Íconos SVG -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 0 1-4.79-1.31l-.34-.2-3.56.93.95-3.47-.22-.36a9.4 9.4 0 0 1-1.44-5.01c0-5.2 4.23-9.43 9.43-9.43 2.52 0 4.89.98 6.67 2.77a9.37 9.37 0 0 1 2.76 6.67c0 5.2-4.23 9.43-9.43 9.43zm8.02-17.45A11.27 11.27 0 0 0 12.05.72C5.8.72.72 5.8.72 12.05c0 2 .52 3.95 1.52 5.66L.62 23.28l5.7-1.5a11.3 11.3 0 0 0 5.42 1.38h.01c6.25 0 11.33-5.08 11.33-11.33 0-3.03-1.18-5.87-3.32-8.01z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 21s-7-6.1-7-11.5a7 7 0 1 1 14 0C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-reloj" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-tel" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></symbol>
+</svg>
 
 </body>
 </html>
